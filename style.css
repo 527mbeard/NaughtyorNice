@@ -11,6 +11,27 @@ body.festive-bg {
     overflow-x: hidden;
 }
 
+h1,
+h2{
+    font-family: "ff-scala-jewel-crystal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    font-family: "ff-scala-jewel-diamond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+}
+
+p,
+label {
+    font-family: "halcom", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .festive-header {
     background: linear-gradient(90deg, #c41e3a 0%, #1a472a 50%, #c41e3a 100%);
     color: #ffd700;
@@ -27,9 +48,12 @@ body.festive-bg {
 }
 
 @keyframes headerGlow {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
     }
+
     50% {
         box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
     }
@@ -64,25 +88,76 @@ body.festive-bg {
         transform: translateY(-10vh) translateX(0);
         opacity: 1;
     }
+
     90% {
         opacity: 1;
     }
+
     100% {
         transform: translateY(100vh) translateX(100px);
         opacity: 0;
     }
 }
 
-.snowflake:nth-child(1) { left: 10%; animation-duration: 10s; animation-delay: 0s; }
-.snowflake:nth-child(2) { left: 20%; animation-duration: 12s; animation-delay: 1s; }
-.snowflake:nth-child(3) { left: 30%; animation-duration: 14s; animation-delay: 2s; }
-.snowflake:nth-child(4) { left: 40%; animation-duration: 11s; animation-delay: 0.5s; }
-.snowflake:nth-child(5) { left: 50%; animation-duration: 13s; animation-delay: 1.5s; }
-.snowflake:nth-child(6) { left: 60%; animation-duration: 15s; animation-delay: 0.2s; }
-.snowflake:nth-child(7) { left: 70%; animation-duration: 12s; animation-delay: 2.5s; }
-.snowflake:nth-child(8) { left: 80%; animation-duration: 13s; animation-delay: 1.2s; }
-.snowflake:nth-child(9) { left: 90%; animation-duration: 11s; animation-delay: 0.8s; }
-.snowflake:nth-child(10) { left: 5%; animation-duration: 14s; animation-delay: 2.2s; }
+.snowflake:nth-child(1) {
+    left: 10%;
+    animation-duration: 10s;
+    animation-delay: 0s;
+}
+
+.snowflake:nth-child(2) {
+    left: 20%;
+    animation-duration: 12s;
+    animation-delay: 1s;
+}
+
+.snowflake:nth-child(3) {
+    left: 30%;
+    animation-duration: 14s;
+    animation-delay: 2s;
+}
+
+.snowflake:nth-child(4) {
+    left: 40%;
+    animation-duration: 11s;
+    animation-delay: 0.5s;
+}
+
+.snowflake:nth-child(5) {
+    left: 50%;
+    animation-duration: 13s;
+    animation-delay: 1.5s;
+}
+
+.snowflake:nth-child(6) {
+    left: 60%;
+    animation-duration: 15s;
+    animation-delay: 0.2s;
+}
+
+.snowflake:nth-child(7) {
+    left: 70%;
+    animation-duration: 12s;
+    animation-delay: 2.5s;
+}
+
+.snowflake:nth-child(8) {
+    left: 80%;
+    animation-duration: 13s;
+    animation-delay: 1.2s;
+}
+
+.snowflake:nth-child(9) {
+    left: 90%;
+    animation-duration: 11s;
+    animation-delay: 0.8s;
+}
+
+.snowflake:nth-child(10) {
+    left: 5%;
+    animation-duration: 14s;
+    animation-delay: 2.2s;
+}
 
 .entire {
     margin-top: 40px;
@@ -99,9 +174,12 @@ body.festive-bg {
 }
 
 @keyframes cardGlow {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 0 20px rgba(255, 215, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.3);
     }
+
     50% {
         box-shadow: 0 0 30px rgba(255, 215, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.3);
     }
